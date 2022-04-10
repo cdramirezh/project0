@@ -1,3 +1,8 @@
-.top-right-links {
+#top-right-links {
     text-align: right;
+}
+
+#search-bar{
+    border-radius: 50px;
+    width: 200px;
 }
