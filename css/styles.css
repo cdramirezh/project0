@@ -10,3 +10,11 @@
 .search-bar-row{
     justify-content: center;
 }
+
+.search-button-row{
+    justify-content: center;
+}
+
+#search-button {
+    width: 300px;
+}
