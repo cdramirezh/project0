@@ -4,5 +4,9 @@
 
 #search-bar{
     border-radius: 50px;
-    width: 200px;
+    width: 600px;
+}
+
+.search-bar-row{
+    justify-content: center;
 }
