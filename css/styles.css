@@ -18,3 +18,7 @@
 #search-button {
     width: 300px;
 }
+
+#search-container {
+    height: 90vh;
+}
