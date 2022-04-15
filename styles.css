@@ -48,6 +48,8 @@
     margin: 10px 0;
     height: 30px;
     min-width: 120px;
+    border: 1px solid #8ab4f8;
+    
 }
 
 @font-face {
@@ -79,4 +81,24 @@ div > span{
     font-weight: normal;
     float: right;
     transform: translate(8rem, -1.9rem);
+}
+
+#small-font{
+    font-size: 28px;
+}
+
+.advanced-search{
+    color: #d93025;
+    font-size: 20px;
+    padding-top: 37px;
+}
+
+.advanced-text{
+    color: #333;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+
+div > input {
+    width:95%;
 }

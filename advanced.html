@@ -7,52 +7,88 @@
     </head>
     <body>
         <div class="container">
-            <div class=" row">
-                <div class="col-12" id="top-right-links">
-                    <a href="index.html">Search</a>
+            <div class="row">
+                <div class="col-6 d-flex justify-content-start" id="logo" style="padding-top: 10px;">
+                    <span id="small-font" style="color: #4285F4">G</span>
+                    <span id="small-font" style="color: #EA4335">o</span>
+                    <span id="small-font" style="color: #FBBC05">o</span>
+                    <span id="small-font" style="color: #4285F4">g</span>
+                    <span id="small-font" style="color: #34A853">l</span>
+                    <span id="small-font" class="rotated-e" style="color: #EA4335">e</span>
+                </div>
+                <div class="col-6" id="top-right-links">
+                    <a class="link" href="index.html">Google Search</a>
                 </div>
             </div>
             
-            <div class="row">
+            <div class="row advanced-search">
+                Advanced Search
+            </div>
+
+            <hr style="width: 1000vh; transform: translate(-100rem);" >
+
+            <div class="row advanced-text">
                 <form action="https://www.google.com/search">
+                    
+                    <div class="row">
+                        <div class="col-12" style="font-size: 16px;">
+                            <p>Find pages with…</p>
+                        </div>
+                    </div>
 
                     <div class="row">
-                        <div class="col-6">
-                            <p>Find pages with… “all these words:”</p>
+                        <div class="col-2">
+                            <p>all these words:</p>
                         </div>
                         <div class="col-6">
                             <input type="text" name="as_q">
                         </div>
+                        <div class="col-4">
+                            <p>Type the important words: tricolor rat terrier</p>
+                        </div>
                     </div>
                     
                     <div class="row">
-                        <div class="col-6">
-                            <p>Find pages with… “this exact word or phrase:”</p>
+                        <div class="col-2">
+                            <p>this exact word or phrase:</p>
                         </div>
                         <div class="col-6">
                             <input type="text" name="as_epq">
                         </div>
+                        <div class="col-4">
+                            <p>Put exact words in quotes: "rat terrier"</p>
+                        </div>
                     </div>
 
                     <div class="row">
-                        <div class="col-6">
-                            <p>Find pages with… “any of these words:”</p>
+                        <div class="col-2">
+                            <p>any of these words:</p>
                         </div>
                         <div class="col-6">
                             <input type="text" name="as_oq">
                         </div>
+                        <div class="col-4">
+                            <p>Type OR between all the words you want: miniature OR standard</p>
+                        </div>
                     </div>
                     
                     <div class="row">
-                        <div class="col-6">
-                            <p>Find pages with… “none of these words:”</p>
+                        <div class="col-2">
+                            <p>none of these words:</p>
                         </div>
                         <div class="col-6">
                             <input type="text" name="as_eq">
                         </div>
+                        <div class="col-4">
+                            <p>Put a minus sign just before words you don't want: -rodent, -"Jack Russell"</p>
+                        </div>
                     </div>
 
-                    <input type="submit" value="Google Search" id="advanced-button">
+                    <div class="row justify-content-center">
+                        <div class="col-2">
+                            <input type="submit" value="Google Search" id="advanced-button">
+                        </div>
+                    </div>
 
                 </form>
             </div>
