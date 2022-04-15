@@ -71,3 +71,12 @@ div > span{
 #logo {
     font-size: 0;    
 }
+
+#images-sub {
+    font-size: 16px;
+    color: #4487f6;
+    font-family: roboto-regular, arial, sans-serif;
+    font-weight: normal;
+    float: right;
+    transform: translate(8rem, -1.9rem);
+}
