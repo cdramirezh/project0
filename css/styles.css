@@ -1,5 +1,11 @@
 #top-right-links {
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link {
+    padding-top: 10px;
+    padding-left: 80px;
 }
 
 #search-bar{
@@ -12,15 +18,21 @@
 }
 
 .search-button-row{
-    justify-content: center;
+    padding: 25px;
 }
 
 #search-button {
-    width: 300px;
-}
-
-#search-container {
-    height: 90vh;
+    background-color: #f8f9fa;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
 }
 
 #advanced-button {
