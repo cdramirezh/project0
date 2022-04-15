@@ -11,18 +11,31 @@
 
             <div class="row">
                 <div class="col-12" id="top-right-links">
-                    <a href="index.html">Search</a>
+                    <a class="link" href="index.html">Google Search</a>
                 </div>
             </div>
             
             <div class="row align-items-center" id="search-container">
+                <div class="row" style="height: 17vh;"></div>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center" id="logo">
+                        <span style="color: #4285F4">G</span>
+                        <span style="color: #EA4335">o</span>
+                        <span style="color: #FBBC05">o</span>
+                        <span style="color: #4285F4">g</span>
+                        <span style="color: #34A853">l</span>
+                        <span class="rotated-e" style="color: #EA4335">e</span>
+                    </div>
+                </div>
                 <form action="https://images.google.com/search">
                     <div class="row search-bar-row">
                         <input type="text" name="q" class="form-control" id="search-bar">
                         <input type="hidden" name="tbm" value="isch">
                     </div>
                     <div class="row search-button-row">
-                        <input type="submit" value="Google Search" id="search-button">
+                        <div class="col-12 d-flex justify-content-center">
+                            <input type="submit" value="Google Image Search" id="search-button">
+                        </div>
                     </div>
                 </form>
             </div>
