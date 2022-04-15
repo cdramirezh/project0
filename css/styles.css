@@ -37,3 +37,25 @@
     height: 30px;
     min-width: 120px;
 }
+
+@font-face {
+    font-family: "Product Sans";
+    src: local("Open Sans"), local("OpenSans"), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format("woff2");
+}
+
+div > span{
+    font-size: 86px;
+    font-family: 'Product Sans';
+    font-weight: bold;
+    float:left;
+}
+
+.rotated-e{
+    float:left;
+    transform: rotate();
+    -webkit-transform: rotate(-20deg);
+}
+/* It dissapears the space between <span> */
+#logo {
+    font-size: 0;    
+}
