@@ -11,60 +11,50 @@
     />
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-12" id="top-right-links">
-          <a class="link" href="#">Gmail</a>
-          <a class="link" href="images.html">Image Search</a>
-          <div class="squares">
-            <div class="square"></div>
-            <div class="square"></div>
-            <div class="square"></div>
-            <div class="square"></div>
-            <div class="square"></div>
-            <div class="square"></div>
-            <div class="square"></div>
-            <div class="square"></div>
-            <div class="square"></div>
-          </div>
-          <a class="link" href="advanced.html">Advanced Search</a>
+    <main>
+      <div id="top-right-links">
+        <a class="link" href="#">Gmail</a>
+        <a class="link" href="images.html">Image Search</a>
+        <div class="squares">
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
         </div>
+        <a class="link" href="advanced.html">Advanced Search</a>
       </div>
 
-      <div class="row align-items-center" id="search-container">
-        <div class="row" style="height: 17vh"></div>
-        <div class="row">
-          <!-- <img src="google_logo.png" alt="Google logo" height="92" width="272"> -->
-          <div class="col-12 d-flex justify-content-center" id="logo">
-            <span style="color: #4285f4">G</span>
-            <span style="color: #ea4335">o</span>
-            <span style="color: #fbbc05">o</span>
-            <span style="color: #4285f4">g</span>
-            <span style="color: #34a853">l</span>
-            <span class="rotated-e" style="color: #ea4335">e</span>
-          </div>
+      <div id="search-container">
+        <div id="logo">
+          <span style="color: #4285f4">G</span>
+          <span style="color: #ea4335">o</span>
+          <span style="color: #fbbc05">o</span>
+          <span style="color: #4285f4">g</span>
+          <span style="color: #34a853">l</span>
+          <span class="rotated-e" style="color: #ea4335">e</span>
         </div>
         <form action="https://www.google.com/search">
-          <div class="row search-bar-row">
+          <div class="search-bar-row">
             <input type="text" name="q" class="form-control" id="search-bar" />
           </div>
-          <div class="row search-button-row">
-            <div class="col-6 d-flex justify-content-end">
-              <input
-                type="submit"
-                value="Google Search"
-                id="search-button"
-                height="34px"
-              />
-            </div>
-            <div class="col-6">
-              <input
-                type="submit"
-                value="I'm feeling lucky"
-                id="search-button"
-                name="btnI"
-              />
-            </div>
+          <div class="search-button-row">
+            <input
+              type="submit"
+              value="Google Search"
+              class="search-button"
+              height="34px"
+            />
+            <input
+              type="submit"
+              value="I'm feeling lucky"
+              class="search-button"
+              name="btnI"
+            />
           </div>
         </form>
       </div>
@@ -81,6 +71,6 @@
           <span>Preferencias</span>
         </section>
       </footer>
-    </div>
+    </main>
   </body>
 </html>
